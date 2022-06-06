@@ -9,18 +9,18 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Randy Hunter",
 };
 const background = {
   // Options: Snow or Particle
   type: "Snow",
 };
-// Write a para about yourself here
+// Write a paragraph about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "I started playing with computers when I was 11 years-old. Since then I have been tinkering with all sorts of technologies that in some way or another led me to work on video production, creating websites, and web applications. I'm a lifelong learner 🎓 and I might have a thing for video games. 🎮 ",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -42,40 +42,41 @@ const skillsBar = [
     faClass: "fab fa-js",
   },
   {
-    name: "SASS",
-    // svg: '',
-    faClass: "fab fa-sass",
-  },
-  {
     name: "Node",
     // svg: '',
     faClass: "fab fa-node",
   },
   {
-    name: "Python",
-    // svg: '',
-    faClass: "fab fa-python",
+    // name: "SASS",
+    // // svg: '',
+    // faClass: "fab fa-sass",
   },
-  {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
-  },
-  {
-    name: "Database",
-    // svg: '',
-    faClass: "fas fa-database",
-  },
-  {
-    name: "AWS",
-    // svg: '',
-    faClass: "fab fa-aws",
-  },
+
+  // {
+  //   name: "Python",
+  //   // svg: '',
+  //   faClass: "fab fa-python",
+  // },
+  // {
+  //   name: "Java",
+  //   // svg: '',
+  //   faClass: "fab fa-java",
+  // },
+  // {
+  //   name: "PHP",
+  //   // svg: '',
+  //   faClass: "fab fa-php",
+  // },
+  // {
+  //   name: "Database",
+  //   // svg: '',
+  //   faClass: "fas fa-database",
+  // },
+  // {
+  //   name: "AWS",
+  //   // svg: '',
+  //   faClass: "fab fa-aws",
+  // },
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
@@ -83,91 +84,91 @@ const skillsBar = [
 const section3Title = "Past Projects";
 const projects = [
   {
-    // Add image in './styles/images.css' in #project1
+    // Add image in './styles/images.css' in #project4
     id: "project1",
-    name: "Project 1",
+    name: "Recipe Search",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: " https://rhunter252.github.io/Recipe-App/",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
+    name: "Password Generator",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://rhunter252.github.io/Password-Generator/",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
+    name: "Weather App",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://rhunter252.github.io/Weather-App/",
   },
   {
-    // Add image in './styles/images.css' in #project4
+    // Add image in './styles/images.css' in #project1
     id: "project4",
-    name: "Project 4",
+    name: "Dad Jokes",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://rhunter252.github.io/Dad-Jokes/",
   },
   {
     // Add image in './styles/images.css' in #project5
     id: "project5",
-    name: "Project 5",
+    name: "Memory Game",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://rhunter252.github.io/Jordan-Memory-Game/",
   },
   {
     // Add image in './styles/images.css' in #project6
     id: "project6",
-    name: "Project 6",
+    name: "Outkast Tribute Page",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://rhunter252.github.io/Outkast-Tribute-Page/",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+const section4Title = "";
 const miscellaneous = [
-  {
-    // Add image in './styles/images.css' in #misc1
-    id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
-    id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
-  },
+  // {
+  //   // Add image in './styles/images.css' in #misc1
+  //   id: "misc1",
+  //   name: "Miscellaneous 1",
+  //   url: "https://github.com/kaustubhai",
+  // },
+  // {
+  //   // Add image in './styles/images.css' in #misc2
+  //   id: "misc2",
+  //   name: "Miscellaneous 2",
+  //   url: "https://github.com/kaustubhai",
+  // },
+  // {
+  //   // Add image in './styles/images.css' in #misc3
+  //   id: "misc3",
+  //   name: "Miscellaneous 3",
+  //   url: "https://github.com/kaustubhai",
+  // },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
-// If you hacve the link already, paste it in the contactUrl below
+// If you have the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
-  contactUrl: "",
+    "I started playing with computers when I was 11 years-old. Since then I have been tinkering with all sorts of technologies that in some way or another led me to work on music, photography, sound engineering, electric engineering, automation, video production, feature film post-production, VR games, and 3D sound.",
+  copyright: "Randy Hunter",
+  contactUrl: "https://formspree.io/f/mdobbnkd",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
+  github: "https://github.com/rhunter252",
+  // facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  resume: "https://novoresume.com/",
+  // instagram: "https://instagram.com",
+  linkedin: "https://www.linkedin.com/in/rhunter252/",
+  // resume: "https://novoresume.com/",
 };
 // Dont change anything here
 export {

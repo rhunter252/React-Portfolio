@@ -103,7 +103,7 @@ button:focus {
 }
 .Photo {
   background-color: #fff;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .Photo.inverse-dark {
@@ -449,7 +449,7 @@ input:checked + .slider:before {
     blinkTextCursor 0.5s steps(27) infinite normal;
 }
 .parallax {
-  background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://images.pexels.com/photos/4092125/pexels-photo-4092125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 @keyframes typewriter {
   from {
